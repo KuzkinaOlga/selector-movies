@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import ItemInfoPage from "./pages/filminfopage/ItemInfoPage";
@@ -22,6 +23,18 @@ function App() {
         <Footer />
       </div>
     </ChoiceProvider>
+=======
+import Home from "./pages/Home";
+
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+      <Home />
+      <p>coucou</p>
+    </div>
+>>>>>>> main
   );
 }
 
