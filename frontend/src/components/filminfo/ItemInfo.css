@@ -60,14 +60,26 @@
 .ItemInfo-retrouver-sur {
   font-size: 30px;
 }
+
+.contaimer-item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .linkHome {
-  background-color: var(--background-color);
+  background: linear-gradient(0deg, var(--second-color) 0%, #3d90ddbe 75%);
+  letter-spacing: 2.5px;
   font-family: var(--font-family);
+  font-size: 90%;
   color: var(--text-color);
-  font-size: 1.2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  display: flex;
+  width: 70px;
+  margin: 5px;
+  padding: 5px;
   cursor: pointer;
-  padding-left: 50px;
-  padding-top: 10px;
+  justify-content: center;
 }
 @media screen and (min-width: 426px) and (max-width: 785px) {
   .video-responsive iframe {

@@ -6,25 +6,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-<<<<<<< HEAD
 :root {
   --background-color: #01214d;
   --second-color: #07588f;
   --background-color-selected: #0097fb;
   --text-color: #e2efff;
   --font-family: "Livvic", sans-serif;
-=======
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
->>>>>>> main
 }
 
 .App {
-<<<<<<< HEAD
   background-color: var(--background-color);
-=======
   text-align: center;
 }
 
@@ -65,5 +56,4 @@ code {
 
 button {
   font-size: calc(10px + 2vmin);
->>>>>>> main
 }

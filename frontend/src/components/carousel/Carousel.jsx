@@ -47,7 +47,8 @@ function Carousel() {
             type="button"
             onClick={handlePreviousClick}
           >
-            <img src="/src/assets/arrow-left.svg" alt="" className="arrow" />
+            {/* <img src="/src/assets/arrow-left.svg" alt="" className="arrow" /> */}
+            <img src="../../assets/chevron-left.svg" alt="" className="arrow" />
           </button>
         </div>
         <div className="poster-container">
@@ -68,7 +69,11 @@ function Carousel() {
             type="button"
             onClick={handleNextClick}
           >
-            <img src="/src/assets/arrow-right.svg" alt="" className="arrow" />
+            <img
+              src="../../assets/chevron-right.svg"
+              alt=""
+              className="arrow"
+            />
           </button>
         </div>
       </div>

@@ -34,6 +34,7 @@ function CardItem({ results }) {
               style={{ fontSize: "14px" }}
               disabled
             />
+            &nbsp;
             {Math.floor(results.vote_average)}
           </div>
         </div>

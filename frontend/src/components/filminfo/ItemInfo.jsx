@@ -67,7 +67,7 @@ function ItemInfo() {
   }, [id]);
 
   return (
-    <>
+    <div className="contaimer-item-info">
       <div className="linkHome">
         <Link to="/">Home</Link>
       </div>
@@ -118,7 +118,7 @@ function ItemInfo() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default ItemInfo;
